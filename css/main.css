@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans';
+}
+
+th, td {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(211, 211, 211);
+    font-weight: normal;
+    padding: 10px 0;
+    font-size: 14px;
+}
+td{
+    border-top: none;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+.tasklist ,
+.data{
+    padding: 20px 80px;
+}
+
+h3{
+    font-weight: 300;
+}
+.data label{
+    font-weight: 300;
+    font-size: 14px;
+    display: block;
+    padding-top: 15px;
+}
+.data input, textarea{
+    width: 100%;
+    border: 1.6px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    padding: 6px 10px;
+    outline-color: gray;
+}
+textarea{
+    height: 30px;
+}
+.add , 
+.update-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(68, 183, 225);
+    color: white;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+button{
+    border: none;
+    background-color: #eee;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(68, 183, 225);
+}
+.delete :hover{
+    color: rgb(255, 88, 88);
+}
+.update :hover{
+    color: rgb(138, 234, 138);
+}

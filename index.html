@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Task</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@500&family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tasklist">
+        <table>
+            <thead>
+              <th>Index</th>
+              <th>ProductName</th>
+              <th>ProductPrice</th>
+              <th>ProductCategory</th>
+              <th>ProductDesc</th>
+              <th>update</th>
+              <th>delete</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="data">
+        <h3>Product Management System</h3>
+        <form>
+            <label >ProductName:</label>
+            <input type="text" name="productName" id = "name">
+            <label >ProductPrice:</label>
+            <input type="text" name="productPrice" id = "price">
+            <label >ProductCategory:</label>
+            <input type="text" name="productcategory" id = "category">
+            <label >ProductDescription:</label>
+            <textarea rows = "5" cols = "40" name = "description"></textarea>
+        </form>
+        <button class = "add">add Product</button>
+        <button class = "update-btn">Update Product</button>
+    </div>
+    <script src = "main.js"></script>
+</body>
+</html>
